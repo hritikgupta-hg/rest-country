@@ -1,0 +1,160 @@
+@media only screen and (max-width: 500px) {
+  .header-title {
+    font-size: 20px;
+  }
+
+  .btn-mode {
+    font-size: 15px;
+  }
+
+  .formBox {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .formBox.f1 {
+    margin-bottom: 10px;
+  }
+
+  .countries-container {
+    gap: 2rem;
+    justify-content: space-around;
+  }
+
+  .country-card {
+    width: 90%;
+  }
+
+  .display-country {
+    flex-direction: column;
+    justify-content: none;
+  }
+
+  .display-country-flag {
+    width: 95%;
+  }
+
+  .display-country-details {
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  .country-info {
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .country-info .right {
+    margin-top: 30px;
+  }
+
+  .country-borders span {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 768px) {
+  .header-title {
+    font-size: 20px;
+  }
+
+  .btn-mode {
+    font-size: 15px;
+  }
+
+  .formBox {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .formBox.f1 {
+    margin-bottom: 20px;
+  }
+
+  .countries-container {
+    gap: 2.3rem;
+    justify-content: space-between;
+  }
+
+  .country-details {
+    padding: 20px 20px 40px 20px;
+  }
+
+  .country-card {
+    width: 46%;
+  }
+
+  .display-country {
+    flex-direction: column;
+    justify-content: none;
+  }
+
+  .display-country-flag {
+    width: 100%;
+  }
+
+  .display-country-details {
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  .country-info {
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .country-info .right {
+    margin-top: 30px;
+  }
+
+  .country-borders span {
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 950px) {
+  .countries-container {
+    gap: 2rem;
+  }
+
+  .country-card {
+    width: 30%;
+  }
+
+  .display-country {
+    flex-direction: column;
+    justify-content: none;
+  }
+
+  .display-country-flag {
+    width: 100%;
+  }
+
+  .display-country-details {
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  .country-info {
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .country-info .right {
+    margin-top: 30px;
+  }
+
+  .country-borders span {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 951px) and (max-width: 1024px) {
+  .countries-container {
+    gap: 2rem;
+  }
+
+  .country-card {
+    width: 30%;
+  }
+}
